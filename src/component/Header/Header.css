@@ -16,6 +16,11 @@
   font-size: 1.4rem;
   font-weight: 400;
   font-family: "Roboto";
+  transition: all 400ms ease-in-out;
+}
+
+.header__logo:hover {
+  opacity: 0.4;
 }
 
 .header__menu {
@@ -34,12 +39,23 @@
 .header__socialIcon {
   font-size: 1.5rem;
   margin-right: 6vh;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.header__socialIcon:hover {
+  opacity: 0.4;
 }
 
 .header__menuResume {
   font-size: 1.4rem;
   font-weight: 400;
   font-family: "Roboto";
+  transition: all 400ms ease-in-out;
+}
+
+.header__menuResume:hover {
+  opacity: 0.4;
 }
 
 .header__menuIcon {
