@@ -11,9 +11,9 @@ const Navigation = () => {
         dispatch({
             type: 'HIDE_NAVBAR',
             action: false
-        })
+        });
     }
-    
+
     console.log(showNavbar)
 
     return (

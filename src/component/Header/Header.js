@@ -33,7 +33,7 @@ const Header = () => {
                     </div>
                 </>
             ) : (
-                <Navigation/>
+                <Navigation />
             )}
         </div>
     )
