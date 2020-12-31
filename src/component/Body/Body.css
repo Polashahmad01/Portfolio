@@ -16,12 +16,12 @@
   height: 62rem;
   width: 62rem;
   border-radius: 100%;
-  margin-top: -10.4%;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  right: -38rem;
+  right: -87.5vh;
+  top: -20vh;
   border: 1px solid #132b4a;
 }
 
@@ -71,4 +71,356 @@
   width: 33rem;
   border-radius: 100%;
   background-color: white;
+}
+
+/* Mobile Version */
+@media (max-width: 280px) {
+  .body {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .body {
+    overflow-x: hidden;
+  }
+
+  .body__circles {
+    height: 32rem;
+    width: 32rem;
+    top: 0;
+    right: 17vh;
+  }
+
+  .body__circleOne {
+    height: 29rem;
+    width: 29rem;
+  }
+
+  .body__circleTwo {
+    height: 26rem;
+    width: 26rem;
+  }
+
+  .body__circleThree {
+    height: 23rem;
+    width: 23rem;
+  }
+
+  .body__circleFour {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .body__circleFive {
+    height: 17rem;
+    width: 17rem;
+  }
+
+  .body__circleSix {
+    height: 14rem;
+    width: 14rem;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 360px) {
+  .body {
+    overflow-x: hidden;
+  }
+
+  .body__circles {
+    height: 32rem;
+    width: 32rem;
+    top: 4vh;
+    right: 12vh;
+  }
+
+  .body__circleOne {
+    height: 29rem;
+    width: 29rem;
+  }
+
+  .body__circleTwo {
+    height: 26rem;
+    width: 26rem;
+  }
+
+  .body__circleThree {
+    height: 23rem;
+    width: 23rem;
+  }
+
+  .body__circleFour {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .body__circleFive {
+    height: 17rem;
+    width: 17rem;
+  }
+
+  .body__circleSix {
+    height: 14rem;
+    width: 14rem;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 375px) {
+  .body {
+    overflow-x: hidden;
+  }
+
+  .body__circles {
+    height: 32rem;
+    width: 32rem;
+    top: 7vh;
+    right: 10.4vh;
+  }
+
+  .body__circleOne {
+    height: 29rem;
+    width: 29rem;
+  }
+
+  .body__circleTwo {
+    height: 26rem;
+    width: 26rem;
+  }
+
+  .body__circleThree {
+    height: 23rem;
+    width: 23rem;
+  }
+
+  .body__circleFour {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .body__circleFive {
+    height: 17rem;
+    width: 17rem;
+  }
+
+  .body__circleSix {
+    height: 14rem;
+    width: 14rem;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 411px) {
+  .body {
+    overflow-x: hidden;
+  }
+
+  .body__circles {
+    height: 32rem;
+    width: 32rem;
+    top: 12vh;
+    right: 7vh;
+  }
+
+  .body__circleOne {
+    height: 29rem;
+    width: 29rem;
+  }
+
+  .body__circleTwo {
+    height: 26rem;
+    width: 26rem;
+  }
+
+  .body__circleThree {
+    height: 23rem;
+    width: 23rem;
+  }
+
+  .body__circleFour {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .body__circleFive {
+    height: 17rem;
+    width: 17rem;
+  }
+
+  .body__circleSix {
+    height: 14rem;
+    width: 14rem;
+  }
+}
+
+@media (min-width: 412px) and (max-width: 414px) {
+  .body {
+    overflow-x: hidden;
+  }
+
+  .body__circles {
+    height: 32rem;
+    width: 32rem;
+    top: 9vh;
+    right: 6.5vh;
+  }
+
+  .body__circleOne {
+    height: 29rem;
+    width: 29rem;
+  }
+
+  .body__circleTwo {
+    height: 26rem;
+    width: 26rem;
+  }
+
+  .body__circleThree {
+    height: 23rem;
+    width: 23rem;
+  }
+
+  .body__circleFour {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .body__circleFive {
+    height: 17rem;
+    width: 17rem;
+  }
+
+  .body__circleSix {
+    height: 14rem;
+    width: 14rem;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 540px) {
+  .body {
+    overflow-x: hidden;
+  }
+
+  .body__circles {
+    height: 32rem;
+    width: 32rem;
+    top: 7vh;
+    right: -2vh;
+  }
+
+  .body__circleOne {
+    height: 29rem;
+    width: 29rem;
+  }
+
+  .body__circleTwo {
+    height: 26rem;
+    width: 26rem;
+  }
+
+  .body__circleThree {
+    height: 23rem;
+    width: 23rem;
+  }
+
+  .body__circleFour {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .body__circleFive {
+    height: 17rem;
+    width: 17rem;
+  }
+
+  .body__circleSix {
+    height: 14rem;
+    width: 14rem;
+  }
+}
+
+/* Tablet Version */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .body {
+    overflow-x: hidden;
+  }
+
+  .body__circles {
+    height: 44rem;
+    width: 44rem;
+    top: 8vh;
+    right: -3vh;
+  }
+
+  .body__circleOne {
+    height: 39rem;
+    width: 39rem;
+  }
+
+  .body__circleTwo {
+    height: 34rem;
+    width: 34rem;
+  }
+
+  .body__circleThree {
+    height: 29rem;
+    width: 29rem;
+  }
+
+  .body__circleFour {
+    height: 24rem;
+    width: 24rem;
+  }
+
+  .body__circleFive {
+    height: 19rem;
+    width: 19rem;
+  }
+
+  .body__circleSix {
+    height: 14rem;
+    width: 14rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+  .body {
+    overflow-x: hidden;
+  }
+
+  .body__circles {
+    height: 47rem;
+    width: 47rem;
+    top: 15vh;
+    right: -10vh;
+  }
+
+  .body__circleOne {
+    height: 42rem;
+    width: 42rem;
+  }
+
+  .body__circleTwo {
+    height: 37rem;
+    width: 37rem;
+  }
+
+  .body__circleThree {
+    height: 32rem;
+    width: 32rem;
+  }
+
+  .body__circleFour {
+    height: 27rem;
+    width: 27rem;
+  }
+
+  .body__circleFive {
+    height: 22rem;
+    width: 22rem;
+  }
+
+  .body__circleSix {
+    height: 17rem;
+    width: 17rem;
+  }
 }
