@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Body.css';
 import ScrollFeature from './ScroolFeature/ScrollFeature';
+import Home from './Home/Home';
 
 const Body = () => {
 
@@ -14,10 +15,12 @@ const Body = () => {
                     <div className="body__circleThree"></div>
                     <div className="body__circleFour"></div>
                     <div className="body__circleFive"></div>
-                    <div className="body__circleSix"></div>
+                    <div className="body__circleSix">
+                    </div>
                 </div>
             </div>
             <ScrollFeature />
+            <Home />
         </div>
     )
 }
