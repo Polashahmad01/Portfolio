@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './Body.css';
+import ScrollFeature from './ScroolFeature/ScrollFeature';
 
 const Body = () => {
 
@@ -16,6 +17,7 @@ const Body = () => {
                     <div className="body__circleSix"></div>
                 </div>
             </div>
+            <ScrollFeature />
         </div>
     )
 }

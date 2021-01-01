@@ -1,0 +1,64 @@
+.scrollFeature {
+  display: flex;
+  margin-top: -22rem;
+  flex-direction: column;
+  padding-left: 5.747vh;
+}
+
+.scrollFeature__lines {
+  display: flex;
+  flex-direction: column;
+}
+
+.scrollFeature__lineOne {
+  height: 3px;
+  width: 50px;
+  background-color: white;
+  margin-bottom: 2.5rem;
+  cursor: pointer;
+}
+
+.scrollFeature__lineTwo {
+  margin-bottom: 2.5rem;
+  height: 3px;
+  width: 50px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.scrollFeature__lineThree {
+  margin-bottom: 2.5rem;
+  height: 3px;
+  width: 50px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.scrollFeature__lineFour {
+  margin-bottom: 2.5rem;
+  height: 3px;
+  width: 50px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.scroolFeature__scrollDown {
+  padding-top: 1.5rem;
+  display: flex;
+}
+
+.scroolFeature__scrollDown > p {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.2rem;
+  writing-mode: vertical-rl;
+}
+
+.scroolFeature__scrollDownLine {
+  height: 3px;
+  width: 70px;
+  background-color: white;
+  transform: rotate(90deg);
+  margin-left: -1.65rem;
+  margin-top: 2.4rem;
+}
