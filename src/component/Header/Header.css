@@ -5,12 +5,11 @@
   padding-top: 5.747vh;
   padding-left: 5.747vh;
   padding-right: 5.747vh;
-  position: sticky;
+  position: absolute;
   top: 0;
-  z-index: 1000;
+  z-index: 1;
   width: 100vw;
   height: auto;
-  /* background-color: red; */
 }
 
 .header__logo {
